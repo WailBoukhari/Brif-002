@@ -225,6 +225,7 @@ section {
   border: none;
   border-bottom: 2px solid;
   border-color: white;
+  color: #fff;
 }
 .contact-form textarea {
   width: 100%;
@@ -235,6 +236,7 @@ section {
   border: none;
   border-bottom: 2px solid;
   border-color: white;
+  color: #fff;
 }
 
 .forun-btn {
