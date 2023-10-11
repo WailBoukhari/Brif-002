@@ -1,0 +1,267 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Playfair Display", serif;
+  margin: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+section {
+  padding: 5% 0;
+}
+.sec-title {
+  display: flex;
+  justify-content: center;
+  font-size: 5rem;
+  font-weight: 100;
+  margin-bottom: 4rem;
+}
+/*Navbar style*/
+.main-port-navbar {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.main-nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 86%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.main-nav-brand {
+  font-size: 1.5rem;
+}
+
+.main-nav-menu {
+  display: flex;
+  gap: 6rem;
+  font-size: 20px;
+}
+
+.main-nav-menu a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.main-nav-menu .active {
+  border-bottom: solid;
+  padding-bottom: 6px;
+}
+/*  banner style*/
+
+.banner-container p {
+  width: 40%;
+  margin-left: 9%;
+  font-size: 1.8rem;
+}
+.banner-img-01 {
+  position: absolute;
+
+  right: 0rem;
+  top: 10rem;
+}
+.banner-img-02 {
+  position: absolute;
+  top: 30rem;
+}
+.banner-title-part1 {
+  font-size: 22rem;
+  position: absolute;
+  top: 0;
+  left: 15rem;
+  z-index: 1;
+}
+.banner-title-part2 {
+  font-size: 22rem;
+  position: absolute;
+  top: 18rem;
+  left: 24rem;
+  z-index: 1;
+}
+.banner-btn {
+  position: absolute;
+  top: 61rem;
+  right: 41rem;
+  border-style: solid;
+  padding: 15px 50px;
+  font-size: 27px;
+  transition: 1s;
+}
+
+.banner-btn:hover {
+  background-color: #fff;
+  color: #000;
+  transition: 1s;
+}
+
+/* Portfolio Section*/
+
+.main-portfolio-sec {
+  margin-top: 44rem;
+}
+.sec-container {
+  padding: 0 5rem;
+}
+.main-portfolio-sec .portfolio-item-bundle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.main-portfolio-sec .portfolio-item {
+  display: flex;
+  margin: 1rem;
+  height: 100%;
+}
+/* About Style */
+.about-elemnt {
+  display: flex;
+}
+
+.about-elemnt-text p {
+  font-size: 3rem;
+  width: 81%;
+}
+/*testimonial style*/
+.head-text {
+  display: flex;
+  width: 100%;
+  margin: auto 0;
+  text-align: center;
+  justify-content: center;
+}
+.head-text p {
+  width: 60%;
+  padding: 3% 0;
+  font-size: 1.5rem;
+}
+.testi-content {
+  margin-left: 8rem;
+  padding: 1rem 11rem;
+  display: flex;
+  margin-bottom: 4rem;
+}
+.testi-content .testi-left {
+  width: 135%;
+  margin-right: 2rem;
+}
+.testi-content .testi-left .card-item {
+  display: flex;
+}
+.testi-content .testi-left .card-item .card-content {
+  background-color: #181818;
+  width: 60%;
+  padding: 4%;
+}
+
+.testi-content .testi-left .card-item .card-content h2 {
+  font-size: 3rem;
+}
+
+.testi-content .testi-left .card-item .card-content p {
+  margin: 2rem 0;
+}
+
+.testi-content .testi-right .card-item .card-content {
+  background-color: #181818;
+  width: 70%;
+  padding: 4%;
+}
+.testi-content .testi-right .card-item img {
+  width: 78%;
+}
+.testi-content .testi-right .card-item .card-content h2 {
+  font-size: 2.8rem;
+  width: 80%;
+}
+
+.testi-content .testi-right .card-item .card-content p {
+  width: 80%;
+}
+.testi-content .testi-left .card-item .card-content span {
+  margin-top: 2%;
+}
+.testi-btn {
+  border-style: solid;
+  padding: 15px 44px;
+  font-size: 27px;
+  transition: 1s;
+  margin: 10rem 42%;
+}
+
+.testi-btn:hover {
+  background-color: #fff;
+  color: #000;
+  transition: 1s;
+}
+/*contact style*/
+.contact-form {
+  margin-top: 5rem;
+  padding: 0 26rem;
+}
+.contact-form label {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.contact-form input[type="text"] {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 44px;
+  box-sizing: border-box;
+  background: none;
+  border: none;
+  border-bottom: 2px solid;
+  border-color: white;
+}
+.contact-form textarea {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 44px;
+  box-sizing: border-box;
+  background: none;
+  border: none;
+  border-bottom: 2px solid;
+  border-color: white;
+}
+
+.forun-btn {
+  border-style: solid;
+  padding: 15px 44px;
+  font-size: 27px;
+  transition: 1s;
+}
+.forun-btn:hover {
+  background-color: #fff;
+  color: #000;
+  transition: 1s;
+}
+.page-bottom {
+  margin: 6rem 0 1rem 0;
+}
+.cp-name {
+  display: flex;
+  justify-content: center;
+}
+.privecy-tos {
+  display: flex;
+  justify-content: center;
+}
+.privecy-tos span {
+  margin: 1rem 1rem;
+}
+.privecy-tos span a {
+  color: #707070;
+}
