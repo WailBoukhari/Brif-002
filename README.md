@@ -1,5 +1,6 @@
 # Brif-002
-Mise à Jour du Site Web pour une galerie artistique
+Mise à Jour du Site Web pour une galerie artistique.
+
 Ce brief met l'accent sur la création de maquettes et de sites web pour une galerie artistique, en realisant la page d'accueil, page Portfolio, à propos et contact. en utilisant HTML et CSS.
 
 1- En tant que concepteur, je vais analyser la maquette de la page d'accueil fournie en Figma. Je m'assurerai de respecter le style et la mise en page de la page.
